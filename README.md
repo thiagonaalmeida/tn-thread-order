@@ -63,4 +63,4 @@ If this extension helps your Thunderbird workflow, GitHub Sponsors support is we
 
 ## License
 
-TN Thread Order is distributed under the Mozilla Public License 2.0. See [LICENSE](LICENSE).
+TN Thread Order is distributed under the Mozilla Public License 2.0.
