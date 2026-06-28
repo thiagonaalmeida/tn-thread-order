@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.0.1 - 2026-06-28
+
+### Fixed
+
+- Improved context-menu command targeting for projected Thunderbird thread rows.
+- Corrected visual state refresh after read, unread, star, unstar, junk, and tag actions.
+- Corrected direct row button handling for read/unread, star/unstar, and junk actions on projected rows.
+- Improved collapsed thread summary refresh so state changes update smoothly in the preview pane.
+- Improved projected row cache validation after thread expand and collapse operations.
+- Hardened collapsed thread state matching across folders and accounts.
+
+### Improved
+
+- Preserved Thunderbird native selection as the authority while routing projected row commands to the displayed message.
+- Preserved native collapsed-thread behavior for full-thread delete, archive, move, and thread-level state operations.
+- Restored Thunderbird native focus handoff after projected direct-button commands, avoiding residual focus highlights.
+- Notifies compatible visual extensions when a projected row's read, flagged, or tag state changes.
+- Reduced repeated parsing during row rendering.
+- Removed obsolete internal code paths.
+- Aligned the thread-connector dot with Thunderbird's native rail line in Card View.
+- Kept Thunderbird's default Table View appearance intact.
+
 ## 1.0.0 - 2026-06-22
 
 Initial public release of TN Thread Order.
