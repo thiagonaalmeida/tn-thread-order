@@ -20,7 +20,8 @@ It reorders Thunderbird threads so the latest message becomes the visible main m
 ## Compatibility
 
 - Thunderbird **152.***.
-- Tested with Thunderbird 152.
+- Thunderbird **153.***.
+- Tested with Thunderbird 153.
 
 Thunderbird's message-list internals are not fully exposed through standard WebExtension APIs, so this extension uses Thunderbird Experiment APIs.
 
@@ -34,6 +35,14 @@ Thunderbird's message-list internals are not fully exposed through standard WebE
 6. Select the downloaded `.xpi` file.
 7. Confirm the installation.
 8. Restart Thunderbird if needed.
+
+Starting with version 1.0.3, manually installed GitHub releases include a self-hosted update manifest. Thunderbird can use its add-on update mechanism to detect future TN Thread Order releases published through this repository.
+
+## Thunderbird Add-ons status
+
+TN Thread Order was submitted to Thunderbird Add-ons, but the gallery is currently not accepting new add-ons using Experiment APIs unless they use unmodified copies of published Thunderbird API drafts.
+
+Because TN Thread Order depends on Thunderbird message-list internals that are not currently exposed through standard WebExtension APIs, distribution is handled through GitHub Releases while that restriction remains in place.
 
 ## Options
 
