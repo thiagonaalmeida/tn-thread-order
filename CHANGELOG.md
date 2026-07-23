@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.2 - 2026-07-22
+
+### Fixed
+
+- Restored compatibility with Thunderbird 153.0 and Thunderbird 153.x.
+- Updated the Thunderbird compatibility range while keeping Thunderbird 152.x support.
+
+### Improved
+
+- Updated the extension icon to match the current TNCode brand mark.
+- Preserved the stable 1.0.1 behavior for projected thread ordering, collapsed-thread command handling, preview refresh, and projected row state signaling.
+- Kept Thunderbird's default Table View appearance intact.
+
 ## 1.0.1 - 2026-06-28
 
 ### Fixed
