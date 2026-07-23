@@ -1,12 +1,12 @@
 # TN Thread Order 1.0.2
 
-Compatibility release focused on Thunderbird 153.0 / 153.x support and TNCode icon alignment.
+Compatibility release focused on Thunderbird 153.0 / 153.x support, TNCode icon alignment, and preservation of the stable 1.0.1 behavior.
 
 ## Download
 
-Download the attached file:
+Download the attached XPI file from this release:
 
-- `tn-thread-order-1.0.2.xpi`
+- [tn-thread-order-1.0.2.xpi](https://github.com/thiagonaalmeida/tn-thread-order/releases/download/v1.0.2/tn-thread-order-1.0.2.xpi)
 
 ## SHA256
 
