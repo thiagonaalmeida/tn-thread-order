@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.0.3 - 2026-07-23
+
+### Added
+
+- Added self-hosted update support for manually installed GitHub releases using Thunderbird's `update_url` mechanism.
+
+### Improved
+
+- Preserved the stable 1.0.2 behavior with no functional changes to thread projection, command handling, preview synchronization, Card View, or Table View.
+
+### Notes
+
+- This release exists to enable automatic updates for users who install TN Thread Order outside Thunderbird Add-ons while new Experiment API add-on reviews remain paused for the official gallery.
+
 ## 1.0.2 - 2026-07-22
 
 ### Fixed
