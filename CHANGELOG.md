@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.0.4 - 2026-08-24
+
+### Fixed
+
+- Restored compatibility with Thunderbird 154.0 and Thunderbird 154.x by extending the supported Thunderbird version range after source review and runtime testing.
+
+### Improved
+
+- Preserved the stable 1.0.3 behavior with no functional changes to thread projection, collapsed-thread command handling, preview synchronization, Card View, or Table View.
+- Confirmed the existing projection, selection/focus, context-command, preview, and row-state integration paths remain compatible with Thunderbird 154.
+
+### Notes
+
+- Tested with Thunderbird 154.
+- Keeps Thunderbird's default Table View appearance intact.
+
 ## 1.0.3 - 2026-07-23
 
 ### Added
