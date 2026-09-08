@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.0.5 - 2026-09-07
+
+### Fixed
+
+- Restored compatibility with Thunderbird 155.0 and Thunderbird 155.x.
+- Updated Table View read/unread localization IDs to match Thunderbird 155 while preserving compatibility with Thunderbird 152-154.
+- Synchronized Thunderbird 155 Card View read/new status metadata with the message projected by TN Thread Order.
+- Updated default preference loading for Thunderbird 155 to avoid the newly blocked `jar:file:` subscript path while preserving the existing behavior on Thunderbird 152-154.
+
+### Improved
+
+- Preserved the stable 1.0.4 thread ordering, relationship indicators, preview synchronization, collapsed-thread commands, selection/focus behavior, and native Table View appearance.
+- Verified the Thunderbird 155 compatibility changes with runtime testing after reviewing the relevant Thunderbird 154 and 155 source changes.
+
+### Notes
+
+- Tested with Thunderbird 155.
+- No changes were made to the core newest-first ordering algorithm or collapsed-thread command semantics.
+
 ## 1.0.4 - 2026-08-24
 
 ### Fixed
