@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.0.6 - 2026-09-17
+
+### Fixed
+
+- Added compatibility with Thunderbird 156.0 and Thunderbird 156.x.
+- Fixed double-click activation on collapsed projected threads so the opened message matches the newest message shown by TN Thread Order.
+- Updated Thunderbird 156 Table View account-color projection so collapsed cross-account threads keep the native color of the projected message account.
+
+### Improved
+
+- Preserved Thunderbird 156 native Table View account-color behavior by using the projected message's server identity.
+- Preserved the stable newest-first ordering, relationship indicators, preview synchronization, context-command routing, direct row-state commands, and selection/focus behavior from version 1.0.5.
+
+### Notes
+
+- Tested with Thunderbird 156.
+- The double-click fix resolves GitHub issue #3.
+- No changes were made to the core newest-first ordering algorithm, relationship visualization, or collapsed-thread command semantics.
+
 ## 1.0.5 - 2026-09-07
 
 ### Fixed
