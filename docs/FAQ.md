@@ -6,7 +6,7 @@ It changes Thunderbird threaded conversations to show the newest message first.
 
 ## Which Thunderbird version is supported?
 
-The current release supports Thunderbird 152.* through 155.*.
+The current release supports Thunderbird 152.* through 156.*.
 
 ## Does it support Card View and Table View?
 
