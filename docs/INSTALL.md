@@ -9,4 +9,4 @@
 
 ## Compatibility
 
-TN Thread Order 1.0.0 targets Thunderbird 152.*.
+The current release supports Thunderbird 152.* through 156.*.
