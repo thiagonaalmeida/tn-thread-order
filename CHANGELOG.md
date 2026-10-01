@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.0.7 - 2026-10-01
+
+### Fixed
+
+- Added compatibility with Thunderbird 157.0 and Thunderbird 157.x.
+
+### Improved
+
+- Reviewed the Thunderbird 156 and 157 source paths used by TN Thread Order before extending the compatibility range.
+- Preserved the stable 1.0.6 newest-first ordering, relationship indicators, preview synchronization, projected-row double-click handling, context-command behavior, selection/focus handling, native Table View account colors, and Thunderbird-native Table View appearance.
+
+### Notes
+
+- Tested with Thunderbird 157.
+- Runtime testing confirmed normal startup after restart, expected TN Thread Order behavior, and no observed console errors.
+- No functional changes were made to thread projection, command handling, preview synchronization, Card View, or Table View.
+
 ## 1.0.6 - 2026-09-17
 
 ### Fixed
