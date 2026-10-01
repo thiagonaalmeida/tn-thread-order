@@ -24,7 +24,8 @@ It reorders Thunderbird threads so the latest message becomes the visible main m
 - Thunderbird **154.***.
 - Thunderbird **155.***.
 - Thunderbird **156.***.
-- Tested with Thunderbird 156.
+- Thunderbird **157.***.
+- Tested with Thunderbird 157.
 
 Thunderbird's message-list internals are not fully exposed through standard WebExtension APIs, so this extension uses Thunderbird Experiment APIs.
 
