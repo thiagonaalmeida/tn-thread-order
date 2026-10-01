@@ -9,4 +9,4 @@
 
 ## Compatibility
 
-The current release supports Thunderbird 152.* through 156.*.
+The current release supports Thunderbird 152.* through 157.*.
