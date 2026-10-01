@@ -5,17 +5,24 @@
 ### Fixed
 
 - Added compatibility with Thunderbird 157.0 and Thunderbird 157.x.
+- Corrected projected-row multi-selection so Shift, Ctrl/Cmd, and Thunderbird's native selection mechanisms preserve the complete selected set.
+- Corrected the multiple-message pane so it reflects only the messages represented by the selected TN Thread Order rows and keeps TNTO projected ordering.
+- Added command-only projected selection mapping so native Thunderbird consumers resolve the messages represented by projected multi-selection without replacing the user's visual selection.
 
 ### Improved
 
+- Applied the projected multi-selection mapping to relevant context-menu state, command routing, and multi-selection drag payload preparation.
 - Reviewed the Thunderbird 156 and 157 source paths used by TN Thread Order before extending the compatibility range.
-- Preserved the stable 1.0.6 newest-first ordering, relationship indicators, preview synchronization, projected-row double-click handling, context-command behavior, selection/focus handling, native Table View account colors, and Thunderbird-native Table View appearance.
+- Preserved collapsed-thread command semantics and the stable 1.0.6 newest-first ordering, relationship indicators, single-selection preview synchronization, projected-row double-click handling, selection/focus behavior, native Table View account colors, and Thunderbird-native Table View appearance.
 
 ### Notes
 
 - Tested with Thunderbird 157.
 - Runtime testing confirmed normal startup after restart, expected TN Thread Order behavior, and no observed console errors.
-- No functional changes were made to thread projection, command handling, preview synchronization, Card View, or Table View.
+- Multi-selection was tested with and without GMail Labels 0.3, in Card View and Table View, using Shift and Ctrl selection; the multiple-message pane showed only the selected messages in the correct TNTO projected order.
+- The correction is generic and contains no GMail Labels-specific detection, workaround, or compatibility branch.
+- Delete, Archive, Move, and other destructive/message-operation paths were reviewed as part of the projected-selection mapping but were not runtime-tested specifically with GMail Labels installed.
+- No changes were made to the core newest-first ordering algorithm or Thunderbird's native Table View appearance.
 
 ## 1.0.6 - 2026-09-17
 
