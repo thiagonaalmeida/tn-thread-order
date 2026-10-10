@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.0.8 - 2026-10-09
+
+### Fixed
+
+- Fixed keyboard Reply and related message commands on projected rows so they act on the message visibly represented by TN Thread Order rather than Thunderbird's underlying structural thread message.
+- Fixed projected command-selection restoration so stale multi-message selections do not reappear after native Thunderbird commands.
+- Fixed immediate projected-row refresh after read/unread, star, and tag changes, including projected multi-selection.
+- Hardened context-menu and message-header actions such as Tags, Archive, Delete, Junk, and Not Junk so transient Thunderbird view updates cannot silently redirect an action to a different message.
+
+### Improved
+
+- Extended projected message-target resolution across keyboard shortcuts, context menus, message-header actions, and multi-selection.
+- Preserved native thread/folder-scoped behavior and the established newest-first ordering, preview synchronization, Card View relationship indicators, account-color compatibility, and Thunderbird-native Table View appearance.
+
+### Notes
+
+- Tested with Thunderbird 157 across keyboard navigation, context menus, message-header controls, multi-selection, message-state commands, destructive commands, and rapid-navigation stress scenarios.
+- Resolves GitHub issue #5.
+- No changes were made to the core newest-first ordering algorithm or Thunderbird's native Table View appearance.
+
 ## 1.0.7 - 2026-10-01
 
 ### Fixed
