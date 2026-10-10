@@ -3,9 +3,9 @@
     "tn-thread-order@tncode.io": {
       "updates": [
         {
-          "version": "1.0.7",
-          "update_link": "https://github.com/thiagonaalmeida/tn-thread-order/releases/download/v1.0.7/tn-thread-order-1.0.7.xpi",
-          "update_hash": "sha256:86a285068f9019c385a32f055dd4ee2c18e0d74d9a9ae1c2e584e862e8fde70b",
+          "version": "1.0.8",
+          "update_link": "https://github.com/thiagonaalmeida/tn-thread-order/releases/download/v1.0.8/tn-thread-order-1.0.8.xpi",
+          "update_hash": "sha256:9c3c94af80e83c2731da4bd822c7df1203ecac9f7bc0df33cb91fa0178874cb2",
           "applications": {
             "gecko": {
               "strict_min_version": "152.0",
