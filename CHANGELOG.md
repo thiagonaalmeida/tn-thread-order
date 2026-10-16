@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.0.9 - 2026-10-16
+
+### Fixed
+
+- Corrected message-header star and More > Mark as Read/Unread actions in Thunderbird 158 so projected rows update the displayed message independently of focus.
+- Prevented ambiguous projected header actions from falling back to the structural thread message.
+
+### Improved
+
+- Extended compatibility through Thunderbird 158.x.
+- Preserved Thunderbird-native behavior for regular rows, collapsed threads, multi-selection, and headers displaying the original message.
+
+### Notes
+
+- Validated on Thunderbird 158 with 18 passing runtime test groups covering header actions, keyboard activation, multi-selection, filtering, repaint, and regression scenarios.
+- Preserved newest-first ordering, preview synchronization, Card View relationship indicators, native Table View appearance, and existing context-command behavior.
+
 ## 1.0.8 - 2026-10-09
 
 ### Fixed
