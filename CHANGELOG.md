@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.10 - 2026-11-02
+
+### Improved
+
+- Extended compatibility through Thunderbird 159.x.
+- Preserved the complete 1.0.9 functional implementation, including projected message targeting and newest-first ordering.
+
+### Notes
+
+- Verified the Thunderbird 158-to-159 changes relevant to message selection, header actions, menus, and display components before extending compatibility.
+- Runtime testing on Thunderbird 159 reported normal behavior across the established TN Thread Order scenarios.
+- No JavaScript, visual resources, or message-list behavior were changed in this release.
+
 ## 1.0.9 - 2026-10-16
 
 ### Fixed
