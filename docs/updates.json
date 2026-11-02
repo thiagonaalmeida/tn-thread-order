@@ -3,13 +3,13 @@
     "tn-thread-order@tncode.io": {
       "updates": [
         {
-          "version": "1.0.9",
-          "update_link": "https://github.com/thiagonaalmeida/tn-thread-order/releases/download/v1.0.9/tn-thread-order-1.0.9.xpi",
-          "update_hash": "sha256:c30969d4cbba0d7bc8b0e04e0e13bf4de976c6e2893e4429339a3f23c8749306",
+          "version": "1.0.10",
+          "update_link": "https://github.com/thiagonaalmeida/tn-thread-order/releases/download/v1.0.10/tn-thread-order-1.0.10.xpi",
+          "update_hash": "sha256:b91402893559e4269a8ea0da22f8f5e60ff1408629bad0e68e5eba52b2dc04b8",
           "applications": {
             "gecko": {
               "strict_min_version": "152.0",
-              "strict_max_version": "158.*"
+              "strict_max_version": "159.*"
             }
           }
         }
