@@ -10,7 +10,7 @@
 ### Validation
 
 - Compared the Thunderbird 159.0 and 160.0 source tags for the internals used by the extension.
-- Tested on Thunderbird 160. The maintainer reported normal operation and no errors in the terminal.
+- Tested on Thunderbird 160: normal operation, no errors in the terminal.
 - Verified that the manifest is the only changed file among the 33 retained package entries.
 
 ## 1.0.10 - 2026-11-02
