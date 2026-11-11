@@ -9,4 +9,4 @@
 
 ## Compatibility
 
-Version 1.0.10 supports Thunderbird 152.* through 159.*. Version 1.0.9 supports through Thunderbird 158.*.
+Version 1.0.11 supports Thunderbird 152.* through 160.*. Version 1.0.10 supports through Thunderbird 159.*.

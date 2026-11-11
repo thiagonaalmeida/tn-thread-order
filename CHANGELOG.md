@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.11 - 2026-11-10
+
+### Compatibility
+
+- Extended compatibility through Thunderbird 160.x.
+- Removed the bundled changelog and five historical release notes from the XPI. The changelog remains available in this repository.
+
+### Validation
+
+- Compared the Thunderbird 159.0 and 160.0 source tags for the internals used by the extension.
+- Tested on Thunderbird 160. The maintainer reported normal operation and no errors in the terminal.
+- Verified that the manifest is the only changed file among the 33 retained package entries.
+
 ## 1.0.10 - 2026-11-02
 
 ### Improved
