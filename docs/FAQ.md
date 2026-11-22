@@ -6,7 +6,7 @@ It changes Thunderbird threaded conversations to show the newest message first.
 
 ## Which Thunderbird version is supported?
 
-Version 1.0.11 supports Thunderbird 152.* through 160.*. Version 1.0.10 supports through Thunderbird 159.*.
+Thunderbird 152 or later. Each new Thunderbird version is reviewed during its beta; if it requires changes, a new TN Thread Order version is published.
 
 ## Does it support Card View and Table View?
 

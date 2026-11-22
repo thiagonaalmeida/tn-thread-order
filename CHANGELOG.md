@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.0.12 - 2026-11-22
+
+### Fixed
+
+- Thunderbird 161: clicking a message in the conversation summary selects and previews that message again. Thunderbird 161 changed the summary selection event; both the new and the previous event are supported.
+- Default preferences are registered again on Thunderbird 155 and later. Previously the defaults file could not be read, an `NS_ERROR_ILLEGAL_VALUE` error appeared in the Error Console, and the extension used its built-in fallback values.
+
+### Compatibility
+
+- Thunderbird 152 or later. The maximum version was removed. Each new Thunderbird version is reviewed during its beta; if it requires changes, a new TN Thread Order version is published.
+
+### Validation
+
+- Compared the Thunderbird 160.0 and 161.0b4 source tags for the internals used by the extension.
+- Automated tests on Thunderbird 160.0 and 161.0b4 in new profiles with isolated test data: default preferences, ordering, summary click, selection, preview and a later header command, with no extension errors in the console.
+- Manual check on Thunderbird 161.0b4: list, summary, selection and preview.
+- Verified that only the manifest and the two corrected files changed among the 33 package entries.
+
 ## 1.0.11 - 2026-11-10
 
 ### Compatibility
